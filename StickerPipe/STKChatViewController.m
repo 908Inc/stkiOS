@@ -45,7 +45,7 @@
     
     //    self.dataSource = [@[@"[[pinkgorilla_bigsmile]]",@"[[pinkgorilla_china]]",@"[[pinkgorilla_bigsmile]]",@"[[pinkgorilla_bigsmile]]",@"[[pinkgorilla_bike]]",@"[[pinkgorilla_bigsmile]]",@"[[pinkgorilla_bigsmile]]",@"[[pinkgorilla_bigsmile]]",@"[[pinkgorilla_bigsmile]]",@"[[pinkgorilla_bigsmile]]",@"[[pinkgorilla_bigsmile]]",@"[[pinkgorilla_bigsmile]]",@"[[pinkgorilla_bigsmile]]",@"[[pinkgorilla_bigsmile]]",@"[[pinkgorilla_dontknow]]",@"[[flowers_flower1]]"] mutableCopy];
     
-    self.dataSource = [@[@"[[1774]]", @"[[1778]]", @"[[1609]]", @"[[1624]]", @"[[1776]]", @"[[sonya45_1844]]"] mutableCopy];
+    self.dataSource = [@[@"[[1778]]", @"[[1778]]", @"[[1609]]", @"[[1624]]", @"[[1776]]", @"[[sonya45_1844]]"] mutableCopy];
     self.inputTextView.layer.cornerRadius = 7.0;
     self.inputTextView.layer.borderWidth = 1.0;
     self.inputTextView.layer.borderColor = [UIColor colorWithRed:0.84 green:0.84 blue:0.85 alpha:1].CGColor;
