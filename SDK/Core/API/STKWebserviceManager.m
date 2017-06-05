@@ -154,7 +154,7 @@ static STKConstStringKey kSdkVersion = @"0.4.4";
 - (void)searchStickersWithSearchModel: (STKSearchModel*)searchModel completion: (void (^)(NSArray* stickers))completion {
 	NSString* funcName = @"searchStickersWithSearchModel";
 
-	if (searchModel.isSuggest) {
+	if (!searchModel.isSuggest) {
 		searchModel.topIfEmpty = @"0";
 		searchModel.wholeWord = @"1";
 	} else {
